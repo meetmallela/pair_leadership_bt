@@ -1,0 +1,6 @@
+kite_config.json
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.log
