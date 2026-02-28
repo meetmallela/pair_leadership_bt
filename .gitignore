@@ -4,3 +4,10 @@ __pycache__/
 *.pyo
 *.db
 *.log
+
+# Large raw 1-min data files (regenerate via ingestion/ scripts)
+data/raw/nifty_1m.csv
+data/raw/reliance_1m.csv
+data/raw/hdfcbank_1m.csv
+data/raw/indiavix_1m.csv
+data/raw/*_v0.csv

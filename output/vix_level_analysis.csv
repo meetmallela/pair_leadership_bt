@@ -1,0 +1,4 @@
+vix_level,trades,win_rate,avg_win,avg_loss,expectancy,net_points,max_drawdown
+HIGH,112.0,0.4,6.71,-5.62,-0.67,-74.8,-91.9
+LOW,109.0,0.48,3.58,-5.54,-1.19,-129.75,-157.9
+MEDIUM,380.0,0.51,6.6,-6.12,0.37,141.55,-131.9

@@ -1,0 +1,3 @@
+vix_direction,trades,win_rate,avg_win,avg_loss,expectancy,net_points,max_drawdown
+FALLING,331.0,0.49,5.29,-5.46,-0.23,-75.8,-208.55
+RISING,270.0,0.48,7.05,-6.45,0.05,12.8,-141.85

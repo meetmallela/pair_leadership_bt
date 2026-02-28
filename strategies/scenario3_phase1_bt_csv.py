@@ -1,0 +1,191 @@
+import pandas as pd
+from datetime import datetime
+import os
+
+# ================= CONFIG =================
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data", "raw")
+OUTPUT_DIR = os.path.join(BASE_DIR, "output")
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+STRUCTURE_LOOKBACK = 3
+VOL_WINDOW = 20
+VOL_MULTIPLIER = 1.2
+
+STOP_LOSS_POINTS = 20
+
+TRADE_START = "09:20"
+TRADE_END = "14:00"
+FORCE_EXIT = "14:45"
+
+# ================= DATA LOAD =================
+
+def load_symbol(symbol):
+    path = os.path.join(DATA_DIR, f"{symbol}_1m.csv")
+    df = pd.read_csv(path, parse_dates=["timestamp"])
+    df.set_index("timestamp", inplace=True)
+    return df
+
+# ================= INDICATORS =================
+
+def add_indicators(df):
+    df = df.copy()
+    df["tp"] = (df["high"] + df["low"] + df["close"]) / 3
+    df["vol_avg"] = df["volume"].rolling(VOL_WINDOW).mean()
+    return df
+
+def compute_daily_vwap(df):
+    df = df.copy()
+    df["vwap"] = (
+        df.groupby(df.index.date)
+          .apply(lambda x: (x["tp"] * x["volume"]).cumsum() / x["volume"].cumsum())
+          .reset_index(level=0, drop=True)
+    )
+    return df
+
+# ================= BIAS LOGIC =================
+
+def get_bias(df, idx):
+    if idx < STRUCTURE_LOOKBACK:
+        return "NEUTRAL"
+
+    row = df.iloc[idx]
+    prev = df.iloc[idx-STRUCTURE_LOOKBACK:idx]
+
+    if (
+        row["close"] > row["vwap"]
+        and row["close"] > prev["high"].max()
+        and row["volume"] > VOL_MULTIPLIER * row["vol_avg"]
+    ):
+        return "BULLISH"
+
+    if (
+        row["close"] < row["vwap"]
+        and row["close"] < prev["low"].min()
+        and row["volume"] > VOL_MULTIPLIER * row["vol_avg"]
+    ):
+        return "BEARISH"
+
+    return "NEUTRAL"
+
+# ================= BACKTEST =================
+
+def run_backtest(nifty, reliance, hdfc):
+    trades = []
+
+    for day, day_df in nifty.groupby(nifty.index.date):
+        traded_today = False
+        in_trade = False
+        trade = {}
+
+        for ts in day_df.index:
+            time_str = ts.strftime("%H:%M")
+            if time_str < TRADE_START:
+                continue
+
+            idx = nifty.index.get_loc(ts)
+
+            rel_bias = get_bias(reliance, idx)
+            hdfc_bias = get_bias(hdfc, idx)
+
+            pair_bias = rel_bias if rel_bias == hdfc_bias and rel_bias != "NEUTRAL" else None
+
+            # -------- ENTRY --------
+            if (
+                not in_trade
+                and not traded_today
+                and pair_bias
+                and time_str <= TRADE_END
+            ):
+                entry_price = nifty.iloc[idx + 1]["open"]
+                sl = entry_price - STOP_LOSS_POINTS if pair_bias == "BULLISH" else entry_price + STOP_LOSS_POINTS
+
+                trade = {
+                    "date": day,
+                    "entry_time": nifty.index[idx + 1],
+                    "direction": pair_bias,
+                    "entry_price": entry_price,
+                    "stop_loss": sl
+                }
+
+                in_trade = True
+                traded_today = True
+                continue
+
+            # -------- EXIT --------
+            if in_trade:
+                price = nifty.loc[ts]["close"]
+
+                sl_hit = (
+                    price <= trade["stop_loss"]
+                    if trade["direction"] == "BULLISH"
+                    else price >= trade["stop_loss"]
+                )
+
+                bias_lost = not (rel_bias == hdfc_bias == trade["direction"])
+                time_exit = time_str >= FORCE_EXIT
+
+                if sl_hit or bias_lost or time_exit:
+                    trade["exit_time"] = ts
+                    trade["exit_price"] = price
+                    trade["pnl_points"] = (
+                        price - trade["entry_price"]
+                        if trade["direction"] == "BULLISH"
+                        else trade["entry_price"] - price
+                    )
+                    trades.append(trade)
+                    in_trade = False
+
+    return pd.DataFrame(trades)
+
+# ================= METRICS =================
+
+def generate_summary(trades):
+    if trades.empty:
+        return {}
+
+    equity = trades.pnl_points.cumsum()
+
+    return {
+        "total_trades": len(trades),
+        "win_rate": round((trades.pnl_points > 0).mean(), 2),
+        "avg_win": round(trades[trades.pnl_points > 0].pnl_points.mean(), 2),
+        "avg_loss": round(trades[trades.pnl_points <= 0].pnl_points.mean(), 2),
+        "expectancy": round(trades.pnl_points.mean(), 2),
+        "max_drawdown": round((equity - equity.cummax()).min(), 2)
+    }
+
+# ================= MAIN =================
+
+def main():
+    print("Loading CSV data...")
+
+    nifty = load_symbol("nifty")
+    reliance = load_symbol("reliance")
+    hdfc = load_symbol("hdfcbank")
+
+    # Align timestamps strictly
+    common_index = nifty.index.intersection(reliance.index).intersection(hdfc.index)
+    nifty = nifty.loc[common_index]
+    reliance = reliance.loc[common_index]
+    hdfc = hdfc.loc[common_index]
+
+    nifty = compute_daily_vwap(add_indicators(nifty))
+    reliance = compute_daily_vwap(add_indicators(reliance))
+    hdfc = compute_daily_vwap(add_indicators(hdfc))
+
+    trades = run_backtest(nifty, reliance, hdfc)
+    summary = generate_summary(trades)
+
+    trades.to_csv(os.path.join(OUTPUT_DIR, "scenario3_phase1_trades.csv"), index=False)
+    pd.DataFrame([summary]).to_csv(
+        os.path.join(OUTPUT_DIR, "scenario3_phase1_summary.csv"), index=False
+    )
+
+    print("Backtest completed")
+    print(summary)
+
+if __name__ == "__main__":
+    main()

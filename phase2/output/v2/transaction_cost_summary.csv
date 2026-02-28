@@ -1,0 +1,5 @@
+instrument,trades,win_rate_pct,avg_win_rs,avg_loss_rs,expectancy_rs,total_pnl_rs,max_dd_rs
+Futures GROSS,135,49.6,464.93,-331.36,63.83,8617.5,-3552.5
+Futures NET   (after Rs600/trade),135,10.4,956.43,-708.86,-536.17,-72382.5,-71845.0
+Options GROSS,135,49.6,238.24,-163.22,36.02,4862.98,-1768.7
+Options NET   (after Rs60/trade),135,31.1,304.03,-172.11,-23.98,-3237.02,-4456.32

@@ -1,0 +1,1261 @@
+date,trade_allowed,vix_level,vix_direction,time_window_used,direction,entry_price,exit_price,pnl_points,comment
+2021-01-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-01-04,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-05,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-06,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-07,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-01-08,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-11,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-12,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-13,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-14,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-01-15,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-18,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-19,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-01-20,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-01-21,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-22,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-25,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-27,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-01-28,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-01-29,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-01,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-02,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-03,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-04,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-05,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-08,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-09,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-10,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-11,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-12,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-15,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-16,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-17,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-18,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-19,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-22,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-02-23,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-24,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-25,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-02-26,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-01,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-02,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-03,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-04,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-05,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-08,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-09,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-10,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-12,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-15,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-16,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-17,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-03-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-03-22,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-23,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-24,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-25,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-26,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-03-30,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-03-31,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-04-05,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-06,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-04-07,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-04-08,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-04-12,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-13,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-04-15,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-16,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-04-19,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-20,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-22,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-23,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-26,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-27,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-04-28,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-04-29,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-04-30,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-05-03,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-05-04,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-05-05,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-05-06,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-05-07,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-05-10,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-05-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-12,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-05-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-05-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-26,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-05-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-05-31,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-01,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-06-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-07,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-06-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-10,True,MEDIUM,RISING,11:00,BULLISH,15718.35,15745.15,26.8,Trade taken
+2021-06-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-14,True,MEDIUM,RISING,13:00,BULLISH,15765.95,15809.7,43.75,Trade taken
+2021-06-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-06-16,True,MEDIUM,RISING,13:00,BEARISH,15774.9,15755.7,19.2,Trade taken
+2021-06-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-06-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-21,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-06-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-23,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-06-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-06-30,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-07-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-06,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-07-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-08,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-07-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-12,True,MEDIUM,RISING,11:00,BULLISH,15784.2,15689.5,-94.7,Trade taken
+2021-07-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-14,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-07-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-16,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2021-07-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-07-20,True,MEDIUM,RISING,12:00,BEARISH,15585.45,15624.5,-39.05,Trade taken
+2021-07-22,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2021-07-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2021-07-26,True,MEDIUM,RISING,13:00,BEARISH,15851.1,15821.45,29.65,Trade taken
+2021-07-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-07-28,True,MEDIUM,RISING,13:00,BULLISH,15674.15,15714.65,40.5,Trade taken
+2021-07-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-07-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-02,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-03,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-09,True,MEDIUM,RISING,13:00,BEARISH,16225.4,16254.1,-28.7,Trade taken
+2021-08-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-11,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-13,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-16,True,MEDIUM,RISING,11:00,BULLISH,16547.1,16547.05,-0.05,Trade taken
+2021-08-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-25,True,MEDIUM,RISING,11:00,BULLISH,16691.6,16635.4,-56.2,Trade taken
+2021-08-26,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-08-30,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-08-31,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-09-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-03,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-09-06,True,MEDIUM,RISING,13:00,BEARISH,17372.3,17379.65,-7.35,Trade taken
+2021-09-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-09-16,True,MEDIUM,RISING,12:00,BULLISH,17575.35,17627.55,52.2,Trade taken
+2021-09-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-09-20,True,MEDIUM,RISING,11:00,BULLISH,17604.85,17373.75,-231.1,Trade taken
+2021-09-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-22,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-09-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-09-24,True,MEDIUM,RISING,13:00,BULLISH,17860.25,17841.55,-18.7,Trade taken
+2021-09-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-09-28,True,MEDIUM,RISING,12:00,BEARISH,17707.45,17733.45,-26.0,Trade taken
+2021-09-29,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-09-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-06,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-10-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-11,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-10-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-13,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-10-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-18,True,MEDIUM,RISING,11:00,BEARISH,18495.1,18476.25,18.85,Trade taken
+2021-10-19,True,MEDIUM,RISING,11:00,BULLISH,18565.5,18427.25,-138.25,Trade taken
+2021-10-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-10-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-10-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-10-28,True,MEDIUM,RISING,12:00,BEARISH,17991.1,17862.9,128.2,Trade taken
+2021-10-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-01,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-11-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-08,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-11-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-11-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-15,True,MEDIUM,RISING,11:00,BEARISH,18119.1,18092.0,27.1,Trade taken
+2021-11-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-22,True,MEDIUM,RISING,12:00,BEARISH,17432.95,17440.0,-7.05,Trade taken
+2021-11-23,True,MEDIUM,RISING,11:00,BULLISH,17414.4,17495.1,80.7,Trade taken
+2021-11-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-11-26,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-11-29,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2021-11-30,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-12-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-03,True,MEDIUM,RISING,13:00,BEARISH,17284.55,17210.3,74.25,Trade taken
+2021-12-06,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2021-12-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-13,True,MEDIUM,RISING,11:00,BEARISH,17570.9,17384.5,186.4,Trade taken
+2021-12-14,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-12-15,True,MEDIUM,RISING,12:00,BEARISH,17239.85,17208.3,31.55,Trade taken
+2021-12-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-17,True,MEDIUM,RISING,11:00,BEARISH,17034.5,16994.05,40.45,Trade taken
+2021-12-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-12-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-24,True,MEDIUM,RISING,13:00,BULLISH,16965.65,16999.9,34.25,Trade taken
+2021-12-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-12-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2021-12-30,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2021-12-31,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-03,True,MEDIUM,RISING,12:00,BULLISH,17529.2,17635.35,106.15,Trade taken
+2022-01-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-05,True,MEDIUM,RISING,12:00,BULLISH,17874.85,17907.7,32.85,Trade taken
+2022-01-06,True,MEDIUM,RISING,12:00,BEARISH,17667.15,17746.0,-78.85,Trade taken
+2022-01-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-11,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-01-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-01-18,True,MEDIUM,RISING,11:00,BULLISH,18248.85,18113.8,-135.05,Trade taken
+2022-01-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-01-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-01-21,True,MEDIUM,RISING,13:00,BULLISH,17693.0,17650.45,-42.55,Trade taken
+2022-01-24,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-01-25,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-01-27,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-01-28,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-01-31,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-02-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-02-03,True,MEDIUM,RISING,11:00,BEARISH,17699.9,17520.25,179.65,Trade taken
+2022-02-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-02-07,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-02-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-02-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-02-11,True,MEDIUM,RISING,13:00,BULLISH,17404.15,17345.55,-58.6,Trade taken
+2022-02-14,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-15,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-02-16,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-17,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-18,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-02-21,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-22,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-23,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-02-24,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-02-25,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-02-28,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-03-02,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-03-03,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-04,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-07,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-03-08,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-09,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-10,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-11,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-14,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-03-15,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-03-16,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-17,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-21,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-03-22,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-23,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-03-24,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-25,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-28,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-29,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-30,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-03-31,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-04-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-05,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-04-06,True,MEDIUM,RISING,13:00,BEARISH,17815.35,17799.3,16.05,Trade taken
+2022-04-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-11,True,MEDIUM,RISING,12:00,BULLISH,17723.2,17679.65,-43.55,Trade taken
+2022-04-12,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-04-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-18,True,MEDIUM,RISING,12:00,BEARISH,17146.1,17185.8,-39.7,Trade taken
+2022-04-19,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-04-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-22,True,MEDIUM,RISING,11:00,BULLISH,17310.2,17172.1,-138.1,Trade taken
+2022-04-25,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-04-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-27,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-04-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-04-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-05-02,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-04,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-05,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-06,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-09,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-10,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-11,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-12,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-13,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-16,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-17,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-18,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-19,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-20,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-23,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-24,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-05-25,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-26,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-27,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-05-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-05-31,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-01,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-02,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-06-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-06-06,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-07,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-06-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-06-10,True,MEDIUM,RISING,11:00,BEARISH,16247.7,16191.45,56.25,Trade taken
+2022-06-13,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-14,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-06-15,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-16,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-17,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-06-20,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-06-21,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-06-22,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-23,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-06-24,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-06-27,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-28,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-29,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-06-30,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-07-01,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-07-04,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-07-05,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-07-06,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-07-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-11,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-07-12,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-07-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-25,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-07-26,True,MEDIUM,RISING,11:00,BULLISH,16520.85,16466.55,-54.3,Trade taken
+2022-07-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-07-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-01,True,MEDIUM,RISING,13:00,BULLISH,17294.75,17332.3,37.55,Trade taken
+2022-08-02,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-08-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-04,True,MEDIUM,RISING,11:00,BEARISH,17396.2,17364.0,32.2,Trade taken
+2022-08-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-08,True,MEDIUM,RISING,11:00,BULLISH,17468.5,17527.85,59.35,Trade taken
+2022-08-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-08-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-16,True,MEDIUM,RISING,11:00,BULLISH,17834.9,17828.3,-6.6,Trade taken
+2022-08-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-08-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-19,True,MEDIUM,RISING,11:00,BEARISH,17885.1,17726.95,158.15,Trade taken
+2022-08-22,True,MEDIUM,RISING,11:00,BEARISH,17554.5,17494.35,60.15,Trade taken
+2022-08-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-25,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-08-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-08-29,True,MEDIUM,RISING,11:00,BULLISH,17316.65,17339.1,22.45,Trade taken
+2022-08-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-01,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-09-02,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-09-05,True,MEDIUM,RISING,12:00,BULLISH,17657.2,17653.9,-3.3,Trade taken
+2022-09-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-12,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-09-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-14,True,MEDIUM,RISING,13:00,BULLISH,18055.3,18000.65,-54.65,Trade taken
+2022-09-15,True,MEDIUM,RISING,12:00,BEARISH,17882.8,17872.3,10.5,Trade taken
+2022-09-16,True,MEDIUM,RISING,13:00,BEARISH,17610.6,17550.1,60.5,Trade taken
+2022-09-19,True,MEDIUM,RISING,12:00,BULLISH,17641.15,17631.85,-9.3,Trade taken
+2022-09-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-21,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-09-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-09-23,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-09-26,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-09-27,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-09-28,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-09-29,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-09-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-03,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-10-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-10,True,MEDIUM,RISING,12:00,BULLISH,17207.15,17252.45,45.3,Trade taken
+2022-10-11,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-10-12,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2022-10-13,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2022-10-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-10-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-10-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-21,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-10-24,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-10-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-10-31,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-01,True,MEDIUM,RISING,13:00,BEARISH,18088.35,18142.75,-54.4,Trade taken
+2022-11-02,True,MEDIUM,RISING,11:00,BULLISH,18117.85,18072.1,-45.75,Trade taken
+2022-11-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-09,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-11-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-14,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-11-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-16,True,MEDIUM,RISING,12:00,BULLISH,18411.5,18401.35,-10.15,Trade taken
+2022-11-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-21,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-11-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-23,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-11-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-11-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-11-29,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-11-30,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-12-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-02,True,MEDIUM,RISING,11:00,BEARISH,18684.75,18705.2,-20.45,Trade taken
+2022-12-05,True,MEDIUM,RISING,12:00,BULLISH,18652.2,18694.05,41.85,Trade taken
+2022-12-06,True,MEDIUM,RISING,13:00,BULLISH,18610.85,18647.8,36.95,Trade taken
+2022-12-07,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-12-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-09,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-12-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-14,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-12-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-12-16,True,MEDIUM,RISING,12:00,BULLISH,18338.65,18270.1,-68.55,Trade taken
+2022-12-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-12-21,True,MEDIUM,RISING,11:00,BEARISH,18349.5,18207.55,141.95,Trade taken
+2022-12-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-23,True,MEDIUM,RISING,11:00,BEARISH,17918.9,17824.1,94.8,Trade taken
+2022-12-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2022-12-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2022-12-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-04,True,MEDIUM,RISING,12:00,BEARISH,18061.65,18036.85,24.8,Trade taken
+2023-01-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-01-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-16,True,MEDIUM,RISING,11:00,BEARISH,17961.05,17891.7,69.35,Trade taken
+2023-01-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-01-24,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-01-25,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-01-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-01-30,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-01-31,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-06,True,MEDIUM,RISING,12:00,BEARISH,17722.2,17761.2,-39.0,Trade taken
+2023-02-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-13,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-02-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-16,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-02-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-20,True,MEDIUM,RISING,12:00,BEARISH,17915.75,17847.7,68.05,Trade taken
+2023-02-21,True,MEDIUM,RISING,12:00,BEARISH,17834.9,17842.1,-7.2,Trade taken
+2023-02-22,True,MEDIUM,RISING,13:00,BEARISH,17589.75,17552.5,37.25,Trade taken
+2023-02-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-02-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-03-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-02,True,MEDIUM,RISING,11:00,BULLISH,17378.85,17318.65,-60.2,Trade taken
+2023-03-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-06,True,MEDIUM,RISING,11:00,BEARISH,17776.2,17719.85,56.35,Trade taken
+2023-03-08,True,MEDIUM,RISING,12:00,BEARISH,17650.7,17751.5,-100.8,Trade taken
+2023-03-09,True,MEDIUM,RISING,12:00,BEARISH,17666.15,17582.8,83.35,Trade taken
+2023-03-10,True,MEDIUM,RISING,12:00,BEARISH,17400.8,17418.6,-17.8,Trade taken
+2023-03-13,True,MEDIUM,RISING,11:00,BEARISH,17385.95,17184.6,201.35,Trade taken
+2023-03-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-03-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-03-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-24,True,MEDIUM,RISING,12:00,BULLISH,17085.2,16932.6,-152.6,Trade taken
+2023-03-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-03-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-03-31,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-04-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-04-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-04-06,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-10,True,MEDIUM,RISING,12:00,BULLISH,17680.3,17613.05,-67.25,Trade taken
+2023-04-11,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-12,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-04-13,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-17,True,MEDIUM,RISING,13:00,BEARISH,17660.9,17704.1,-43.2,Trade taken
+2023-04-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-04-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-04-20,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-21,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-24,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-25,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-26,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-04-27,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-04-28,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-05-02,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-05-03,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-05-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-05-05,True,MEDIUM,RISING,11:00,BEARISH,18167.9,18069.95,97.95,Trade taken
+2023-05-08,True,MEDIUM,RISING,12:00,BULLISH,18276.05,18269.75,-6.3,Trade taken
+2023-05-09,True,MEDIUM,RISING,11:00,BULLISH,18325.5,18258.3,-67.2,Trade taken
+2023-05-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-05-11,True,MEDIUM,RISING,12:00,BEARISH,18315.1,18304.5,10.6,Trade taken
+2023-05-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-05-15,True,MEDIUM,RISING,11:00,BULLISH,18400.8,18384.6,-16.2,Trade taken
+2023-05-16,True,MEDIUM,RISING,11:00,BEARISH,18375.2,18276.75,98.45,Trade taken
+2023-05-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-05-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-05-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-05-22,True,MEDIUM,RISING,13:00,BEARISH,18287.2,18303.3,-16.1,Trade taken
+2023-05-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-05-24,True,MEDIUM,RISING,12:00,BEARISH,18341.75,18287.0,54.75,Trade taken
+2023-05-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-05-26,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-05-29,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-05-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-05-31,True,MEDIUM,RISING,13:00,BEARISH,18491.0,18521.3,-30.3,Trade taken
+2023-06-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-02,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-05,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-06,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-07,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-08,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-12,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-13,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-14,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-15,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-16,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-19,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-20,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-21,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-22,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-26,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-27,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-06-28,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-06-30,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-03,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-04,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-05,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-06,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-07,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-10,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-11,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-12,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-13,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-14,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-17,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-18,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-19,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-20,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-21,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-24,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-25,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-26,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-07-27,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-28,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-07-31,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-02,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-03,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-07,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-08,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-10,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-11,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-14,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-16,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-08-17,True,MEDIUM,RISING,12:00,BEARISH,19348.7,19346.2,2.5,Trade taken
+2023-08-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-08-21,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-22,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-24,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-08-25,True,MEDIUM,RISING,12:00,BEARISH,19284.5,19244.3,40.2,Trade taken
+2023-08-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-08-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-08-30,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-08-31,True,MEDIUM,RISING,11:00,BEARISH,19309.0,19279.55,29.45,Trade taken
+2023-09-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-05,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-06,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-07,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-08,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-11,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-12,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-13,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-14,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-15,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-18,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-20,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-21,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-22,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-09-25,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-26,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-27,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-09-28,True,MEDIUM,RISING,11:00,BULLISH,19694.85,19553.3,-141.55,Trade taken
+2023-09-29,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-03,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-10-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-05,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-06,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-09,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-10-10,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-11,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-12,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-13,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-16,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-10-17,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-18,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-10-19,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-20,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-25,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-10-26,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-10-27,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-10-30,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-10-31,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-01,True,MEDIUM,RISING,12:00,BULLISH,19061.75,18990.4,-71.35,Trade taken
+2023-11-02,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-11-03,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-11-06,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-07,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-08,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-11-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-11-10,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-12,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-13,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-11-15,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-16,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-17,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-20,True,MEDIUM,RISING,11:00,BEARISH,19696.6,19693.65,2.95,Trade taken
+2023-11-21,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-11-22,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-11-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2023-11-24,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2023-11-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-11-29,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-11-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-04,True,MEDIUM,RISING,13:00,BULLISH,20610.5,20686.8,76.3,Trade taken
+2023-12-05,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-12-06,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-12-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-11,True,MEDIUM,RISING,13:00,BEARISH,20967.4,20992.8,-25.4,Trade taken
+2023-12-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-14,True,MEDIUM,RISING,13:00,BULLISH,21196.35,21195.25,-1.1,Trade taken
+2023-12-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-12-18,True,MEDIUM,RISING,12:00,BULLISH,21464.5,21410.8,-53.7,Trade taken
+2023-12-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-12-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-26,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-12-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2023-12-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2023-12-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-01,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-01-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-08,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-01-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-12,True,MEDIUM,RISING,11:00,BULLISH,21847.2,21908.25,61.05,Trade taken
+2024-01-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-01-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-01-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-23,True,MEDIUM,RISING,11:00,BEARISH,21537.35,21243.05,294.3,Trade taken
+2024-01-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-01-29,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-01-30,True,MEDIUM,RISING,11:00,BEARISH,21675.25,21530.55,144.7,Trade taken
+2024-01-31,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-02,True,MEDIUM,RISING,12:00,BEARISH,22009.45,21853.3,156.15,Trade taken
+2024-02-05,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-02-06,True,MEDIUM,RISING,11:00,BEARISH,21848.3,21938.8,-90.5,Trade taken
+2024-02-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-08,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-02-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-12,True,MEDIUM,RISING,12:00,BEARISH,21659.45,21612.6,46.85,Trade taken
+2024-02-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-16,True,MEDIUM,RISING,12:00,BEARISH,22027.4,22033.5,-6.1,Trade taken
+2024-02-19,True,MEDIUM,RISING,11:00,BULLISH,22132.15,22116.95,-15.2,Trade taken
+2024-02-20,True,MEDIUM,RISING,11:00,BULLISH,22107.0,22208.15,101.15,Trade taken
+2024-02-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-02-26,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-02-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-02-28,True,MEDIUM,RISING,11:00,BEARISH,22031.4,21926.25,105.15,Trade taken
+2024-02-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-03-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-11,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-03-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-13,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-03-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-03-18,True,MEDIUM,RISING,11:00,BEARISH,21969.45,22051.5,-82.05,Trade taken
+2024-03-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-03-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-26,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-03-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-03-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-04-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-04-02,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-04-03,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-04-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-04-05,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2024-04-08,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2024-04-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-04-10,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-04-12,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2024-04-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-04-16,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-04-18,True,MEDIUM,RISING,13:00,BEARISH,22286.75,22045.75,241.0,Trade taken
+2024-04-19,True,MEDIUM,RISING,12:00,BULLISH,21951.1,22149.7,198.6,Trade taken
+2024-04-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-04-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-04-24,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2024-04-25,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2024-04-26,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2024-04-29,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-04-30,True,MEDIUM,RISING,13:00,BULLISH,22731.5,22587.75,-143.75,Trade taken
+2024-05-02,True,MEDIUM,RISING,11:00,BULLISH,22666.3,22656.75,-9.55,Trade taken
+2024-05-03,True,MEDIUM,RISING,11:00,BEARISH,22566.75,22456.7,110.05,Trade taken
+2024-05-06,True,MEDIUM,RISING,13:00,BEARISH,22429.2,22458.0,-28.8,Trade taken
+2024-05-07,True,MEDIUM,RISING,11:00,BEARISH,22312.25,22304.5,7.75,Trade taken
+2024-05-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-05-09,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-05-10,True,MEDIUM,RISING,12:00,BEARISH,22017.25,22054.0,-36.75,Trade taken
+2024-05-13,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-05-14,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2024-05-15,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2024-05-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-05-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-05-18,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-05-21,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-05-22,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2024-05-23,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2024-05-24,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-05-27,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-05-28,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-05-29,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-05-30,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2024-05-31,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-06-03,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2024-06-04,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-06-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-07,True,MEDIUM,RISING,11:00,BULLISH,23076.55,23270.05,193.5,Trade taken
+2024-06-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-18,True,MEDIUM,RISING,11:00,BULLISH,23548.15,23562.3,14.15,Trade taken
+2024-06-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-06-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-24,True,MEDIUM,RISING,12:00,BULLISH,23552.4,23548.65,-3.75,Trade taken
+2024-06-25,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-06-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-06-27,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-06-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-01,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-08,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-09,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-15,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-16,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-18,True,MEDIUM,RISING,11:00,BEARISH,24539.75,24779.35,-239.6,Trade taken
+2024-07-19,True,MEDIUM,RISING,12:00,BEARISH,24654.7,24525.85,128.85,Trade taken
+2024-07-22,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-24,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-07-25,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-07-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-29,True,MEDIUM,RISING,12:00,BEARISH,24808.6,24840.95,-32.35,Trade taken
+2024-07-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-07-31,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-08-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-02,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-08-05,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2024-08-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-08,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-08-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-12,True,MEDIUM,RISING,11:00,BULLISH,24452.4,24348.8,-103.6,Trade taken
+2024-08-13,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-08-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-23,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-08-26,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-08-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-08-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-08-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-02,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-09-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-09-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-06,True,MEDIUM,RISING,11:00,BEARISH,24889.1,24868.5,20.6,Trade taken
+2024-09-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-11,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-09-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-09-18,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-09-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-20,True,MEDIUM,RISING,11:00,BULLISH,25703.5,25820.35,116.85,Trade taken
+2024-09-23,True,MEDIUM,RISING,13:00,BULLISH,25885.05,25930.15,45.1,Trade taken
+2024-09-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-09-26,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-09-27,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2024-09-30,True,MEDIUM,RISING,11:00,BEARISH,25915.5,25822.8,92.7,Trade taken
+2024-10-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2024-10-03,True,MEDIUM,RISING,11:00,BEARISH,25456.55,25266.0,190.55,Trade taken
+2024-10-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-10-07,True,MEDIUM,RISING,11:00,BEARISH,24804.8,24819.0,-14.2,Trade taken
+2024-10-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-16,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-10-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-10-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-21,True,MEDIUM,RISING,13:00,BULLISH,24815.75,24739.45,-76.3,Trade taken
+2024-10-22,True,MEDIUM,RISING,12:00,BEARISH,24641.3,24481.75,159.55,Trade taken
+2024-10-23,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-10-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-25,True,MEDIUM,RISING,12:00,BEARISH,24101.8,24211.8,-110.0,Trade taken
+2024-10-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-10-29,True,MEDIUM,RISING,12:00,BULLISH,24265.6,24454.0,188.4,Trade taken
+2024-10-30,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-10-31,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-11-01,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-11-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-11-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-07,True,MEDIUM,RISING,11:00,BEARISH,24194.65,24194.6,0.05,Trade taken
+2024-11-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-12,True,MEDIUM,RISING,13:00,BEARISH,23946.85,23842.95,103.9,Trade taken
+2024-11-13,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-11-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-18,True,MEDIUM,RISING,12:00,BULLISH,23521.45,23465.3,-56.15,Trade taken
+2024-11-19,True,MEDIUM,RISING,11:00,BULLISH,23727.8,23468.7,-259.1,Trade taken
+2024-11-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-11-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-11-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-02,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-12-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-12-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-16,True,MEDIUM,RISING,11:00,BEARISH,24628.05,24648.25,-20.2,Trade taken
+2024-12-17,True,MEDIUM,RISING,12:00,BEARISH,24376.75,24319.35,57.4,Trade taken
+2024-12-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-12-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2024-12-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-26,True,MEDIUM,RISING,11:00,BEARISH,23741.0,23760.3,-19.3,Trade taken
+2024-12-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2024-12-30,True,MEDIUM,RISING,12:00,BEARISH,23793.5,23658.65,134.85,Trade taken
+2024-12-31,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-01-01,True,MEDIUM,RISING,11:00,BULLISH,23762.15,23758.7,-3.45,Trade taken
+2025-01-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-06,True,MEDIUM,RISING,11:00,BEARISH,23731.35,23629.6,101.75,Trade taken
+2025-01-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-09,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-01-10,True,MEDIUM,RISING,11:00,BULLISH,23584.95,23437.35,-147.6,Trade taken
+2025-01-13,True,MEDIUM,RISING,11:00,BULLISH,23286.45,23088.7,-197.75,Trade taken
+2025-01-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-16,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-01-17,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-01-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-01-21,True,MEDIUM,RISING,12:00,BEARISH,23225.6,23053.05,172.55,Trade taken
+2025-01-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-27,True,MEDIUM,RISING,12:00,BEARISH,22869.05,22816.85,52.2,Trade taken
+2025-01-28,True,MEDIUM,RISING,11:00,BULLISH,22963.2,22976.3,13.1,Trade taken
+2025-01-29,True,MEDIUM,RISING,11:00,BEARISH,23019.75,23176.2,-156.45,Trade taken
+2025-01-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-01-31,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-03,True,MEDIUM,RISING,13:00,BULLISH,23332.25,23359.7,27.45,Trade taken
+2025-02-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-05,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-02-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-02-11,True,MEDIUM,RISING,13:00,BEARISH,23156.25,23070.5,85.75,Trade taken
+2025-02-12,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-02-13,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-02-14,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-02-17,True,MEDIUM,RISING,13:00,BULLISH,22887.3,22963.5,76.2,Trade taken
+2025-02-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-21,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-02-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-03-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-03-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-10,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-03-11,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-03-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-17,True,MEDIUM,RISING,12:00,BEARISH,22467.55,22515.25,-47.7,Trade taken
+2025-03-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-21,True,MEDIUM,RISING,12:00,BULLISH,23384.35,23355.65,-28.7,Trade taken
+2025-03-24,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-03-25,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-03-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-03-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-01,True,MEDIUM,RISING,13:00,BEARISH,23180.85,23179.7,1.15,Trade taken
+2025-04-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-04-07,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2025-04-08,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2025-04-09,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2025-04-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-21,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-04-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-23,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-04-24,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-04-25,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-04-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-04-29,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-04-30,True,MEDIUM,RISING,12:00,BULLISH,24358.15,24246.25,-111.9,Trade taken
+2025-05-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-05,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-05-06,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-05-07,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-08,False,HIGH,RISING,,,,,0.0,VIX gate blocked
+2025-05-09,False,HIGH,FALLING,,,,,0.0,VIX gate blocked
+2025-05-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-14,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-15,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-19,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-05-20,True,MEDIUM,RISING,12:00,BEARISH,24871.3,24713.85,157.45,Trade taken
+2025-05-21,True,MEDIUM,RISING,12:00,BEARISH,24803.2,24800.95,2.25,Trade taken
+2025-05-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-23,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-26,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-05-27,True,MEDIUM,RISING,11:00,BULLISH,24876.35,24837.7,-38.65,Trade taken
+2025-05-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-05-30,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-02,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-06-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-05,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-09,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-11,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-12,True,MEDIUM,RISING,12:00,BEARISH,25035.35,24856.0,179.35,Trade taken
+2025-06-13,True,MEDIUM,RISING,12:00,BULLISH,24720.65,24735.55,14.9,Trade taken
+2025-06-16,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-17,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-20,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-23,True,MEDIUM,RISING,13:00,BULLISH,25021.9,24958.9,-63.0,Trade taken
+2025-06-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-06-30,True,MEDIUM,RISING,13:00,BEARISH,25507.55,25507.45,0.1,Trade taken
+2025-07-01,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-07-02,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-07-03,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-07-04,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-07-07,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-07-08,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-07-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-10,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-11,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-07-14,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-07-15,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-16,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-17,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-07-18,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-07-21,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-22,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-24,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-07-25,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-07-28,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-07-29,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-30,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-07-31,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-08-01,True,MEDIUM,RISING,11:00,BULLISH,24760.05,24572.15,-187.9,Trade taken
+2025-08-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-08-05,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-08-06,True,MEDIUM,RISING,12:00,BULLISH,24624.85,24569.6,-55.25,Trade taken
+2025-08-07,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-08-08,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-08-11,True,MEDIUM,RISING,13:00,BULLISH,24491.8,24562.15,70.35,Trade taken
+2025-08-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-08-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-08-14,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-08-18,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-08-19,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-08-20,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-08-21,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-08-22,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-08-25,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-08-26,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-08-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-08-29,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-02,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-03,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-05,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-08,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-10,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-11,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-12,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-15,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-16,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-17,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-18,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-19,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-22,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-23,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-24,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-25,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-26,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-09-29,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-09-30,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-03,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-06,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-07,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-08,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-10,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-13,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-14,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-15,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-16,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-17,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-20,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-21,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-23,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-24,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-27,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-28,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-10-29,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-10-30,True,MEDIUM,RISING,11:00,BULLISH,25941.5,25891.2,-50.3,Trade taken
+2025-10-31,True,MEDIUM,RISING,12:00,BEARISH,25801.55,25732.55,69.0,Trade taken
+2025-11-03,True,MEDIUM,RISING,12:00,BULLISH,25724.9,25774.3,49.4,Trade taken
+2025-11-04,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-11-06,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-07,True,MEDIUM,RISING,11:00,BULLISH,25401.2,25510.05,108.85,Trade taken
+2025-11-10,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-11,True,MEDIUM,RISING,13:00,BULLISH,25579.6,25705.55,125.95,Trade taken
+2025-11-12,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-13,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-14,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-11-17,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-11-18,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2025-11-19,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-20,True,MEDIUM,RISING,12:00,BULLISH,26150.35,26197.4,47.05,Trade taken
+2025-11-21,True,MEDIUM,RISING,12:00,BULLISH,26136.25,26063.95,-72.3,Trade taken
+2025-11-24,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-25,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-26,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2025-11-27,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-11-28,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-12-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-02,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-03,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-12-04,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-05,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-08,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-12-09,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-10,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-12-11,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-12,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-15,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-12-16,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-17,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-18,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-19,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-22,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-12-23,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-24,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-26,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-29,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2025-12-30,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2025-12-31,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2026-01-01,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2026-01-02,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2026-01-05,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2026-01-06,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2026-01-07,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2026-01-08,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2026-01-09,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2026-01-12,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2026-01-13,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2026-01-14,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2026-01-16,False,LOW,FALLING,,,,,0.0,VIX gate blocked
+2026-01-19,False,LOW,RISING,,,,,0.0,VIX gate blocked
+2026-01-20,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal
+2026-01-21,True,MEDIUM,RISING,13:00,BULLISH,25286.1,25168.1,-118.0,Trade taken
+2026-01-22,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2026-01-23,True,MEDIUM,RISING,13:00,BEARISH,25170.7,25064.75,105.95,Trade taken
+2026-01-27,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2026-01-28,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2026-01-29,False,MEDIUM,FALLING,,,,,0.0,VIX gate blocked
+2026-01-30,False,MEDIUM,RISING,,,,,0.0,No valid leadership signal

@@ -1,0 +1,7 @@
+vix_level,vix_direction,trades,win_rate,avg_win,avg_loss,expectancy,net_points,max_drawdown
+HIGH,FALLING,53.0,0.4,6.75,-4.24,0.12,6.2,-64.95
+HIGH,RISING,59.0,0.41,6.67,-6.89,-1.37,-81.0,-86.05
+LOW,FALLING,70.0,0.44,3.7,-4.61,-0.93,-65.05,-73.05
+LOW,RISING,39.0,0.54,3.4,-7.56,-1.66,-64.7,-96.85
+MEDIUM,FALLING,208.0,0.52,5.46,-6.19,-0.08,-16.95,-149.0
+MEDIUM,RISING,172.0,0.49,8.05,-6.05,0.92,158.5,-67.65

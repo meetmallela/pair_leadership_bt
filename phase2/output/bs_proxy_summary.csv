@@ -1,0 +1,2 @@
+total_trades,win_rate_pct,avg_win_rs,avg_loss_rs,expectancy_per_trade,total_pnl_rupees,max_drawdown_rupees,lot_size,risk_free_rate
+172,49.4,206.03,-148.45,26.73,4597.08,-1641.72,50,0.065
