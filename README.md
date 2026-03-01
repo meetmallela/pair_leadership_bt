@@ -19,7 +19,8 @@ Fully backtested (2021–2026), analysed through Phase-2 options proxying, and c
 | Entry signal | Reliance AND HDFCBank both show BULLISH or BEARISH bias |
 | Bias definition | Close > VWAP + structure break (3-candle high/low) + volume > 1.2× 20-period avg |
 | Time windows | 11:00–11:30, 12:00–12:30, 13:00–13:30 IST |
-| VIX gate | VIX between 13 and 20, AND rising vs previous day |
+| VIX gate (overnight) | Yesterday's VIX close ∈ [13, 20) AND rising vs day-before — checked once at startup |
+| VIX gate (intraday) | Live WebSocket VIX at signal time must still be ∈ [13, 20) AND above yesterday's close |
 | Max trades/day | 1 |
 | Stop-loss | Fixed 20 NIFTY points from entry |
 | Force exit | 14:45 IST |
@@ -93,7 +94,7 @@ pair_leadership_bt/
 │   ├── main.py                             # Entry point
 │   ├── config.py                           # Locked v2 constants
 │   ├── live_feed.py                        # WebSocket + 1-min candle aggregation
-│   ├── signal_engine.py                    # VIX gate + VWAP + get_bias()
+│   ├── signal_engine.py                    # Overnight + intraday VIX gates, VWAP, get_bias()
 │   ├── paper_trader.py                     # Virtual trade lifecycle + BS P&L
 │   ├── db.py                               # SQLite paper_trades table
 │   ├── notifier.py                         # Telegram alerts
@@ -120,8 +121,11 @@ The system runs live against Zerodha Kite market data with no real orders placed
 ```
 09:00  Refresh access token in kite_config.json
 09:10  python paper_trading/main.py
+       → Checks overnight VIX gate (yesterday's close)
        → Telegram: VIX status + gate decision
-11:00–13:30  Signal detection loop
+11:00–13:30  Signal detection loop (every minute)
+       → Pair consensus (Reliance + HDFCBank same bias)
+       → Intraday VIX gate (live WebSocket VIX re-checked at signal time)
        → Telegram on entry / exit
 15:35  Daily Telegram summary
        → Results auto-exported to paper_trading/results/YYYY-MM-DD.csv
