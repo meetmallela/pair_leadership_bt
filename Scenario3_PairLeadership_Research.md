@@ -706,12 +706,43 @@ for row in conn.execute('SELECT date, direction, nifty_entry, atm_strike, option
 | Exit | `EXIT [BIAS_LOST]` / `Nifty: 22,465 (+15.0 pts)` / `Option P&L: Rs +690 (net after cost)` |
 | Daily summary | `Day Summary — 2026-03-03` / `Trades: 1 \| Pts: +15.0 \| Rs: +690` / `Cumulative: +15.0 pts \| Rs +690` |
 
-### 18.6 VIX Logic Note
+### 18.6 VIX Logic — Two-Layer Gate
 
-The live system uses **yesterday's VIX close** (known before market opens) for both the level and
-direction checks. The backtests used the same day's VIX close (a minor look-ahead). This is the
-correct real-world implementation. Expect a small number of days to classify differently at the
-margin, which is acceptable and expected.
+The live system applies VIX filtering in **two independent layers**:
+
+#### Layer 1 — Overnight gate (checked once at startup, `check_vix_gate()`)
+
+Uses **yesterday's VIX close** (known before market opens) for level + direction.
+This is the correct real-world implementation — the backtests used the same day's VIX close
+(a minor look-ahead bias). A small number of days may classify differently at the margin;
+this is acceptable and expected.
+
+```
+gate_ok = (vix_level == "MEDIUM") AND (vix_direction == "RISING")
+          where level = MEDIUM if vix_yesterday ∈ [13, 20)
+```
+
+If Layer 1 fails, the system trades nothing for the day and exits at 15:35.
+
+#### Layer 2 — Intraday gate (checked at signal time, `check_intraday_vix_gate()`)
+
+Even if the overnight gate passes, a second check fires at the exact minute a pair-consensus
+signal is detected. Live VIX is received continuously from the KiteTicker WebSocket
+(instrument 264969, `MODE_LTP`).
+
+Three conditions must all hold:
+
+| Check | Rationale |
+|-------|-----------|
+| `live_vix is not None` | WebSocket has delivered at least one tick |
+| `13 ≤ live_vix < 20` | VIX has not collapsed or spiked since open |
+| `live_vix > yesterday_close` | Rising direction still intact intraday |
+
+If Layer 2 fails, the signal is discarded and logged; the system continues watching for
+the next opportunity in the same day (subject to the one-trade-per-day rule).
+
+The live VIX at signal time (`vix_intraday`) is also used as the **implied volatility input
+to the Black-Scholes proxy** for option entry pricing — more accurate than yesterday's close.
 
 ### 18.7 Paper Trade DB Schema
 
@@ -727,9 +758,10 @@ CREATE TABLE paper_trades (
     option_entry_px REAL,           -- BS proxy price per unit
     stop_loss       REAL,           -- Nifty entry ± 20 pts
     time_bucket     TEXT,           -- 11:00 | 12:00 | 13:00
-    vix_close       REAL,
-    vix_level       TEXT,
-    vix_direction   TEXT,
+    vix_close       REAL,           -- yesterday's close (overnight gate input)
+    vix_level       TEXT,           -- LOW | MEDIUM | HIGH
+    vix_direction   TEXT,           -- RISING | FALLING
+    vix_intraday    REAL,           -- live WebSocket VIX at signal time (Layer 2 gate + BS sigma)
     exit_time       TEXT,
     nifty_exit      REAL,
     option_exit_px  REAL,
