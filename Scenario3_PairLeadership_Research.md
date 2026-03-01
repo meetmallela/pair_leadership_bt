@@ -671,13 +671,21 @@ C:\ProgramData\anaconda3\python.exe main.py
 The script:
 - Checks India VIX immediately and sends a Telegram startup message
 - Runs until **15:35 IST**, sends a daily Telegram summary, then exits automatically
+- Exports results to `paper_trading/results/YYYY-MM-DD.csv` and pushes to GitHub automatically
 - Logs all activity to `paper_trading.log`
 
 ---
 
-**Step 3 — Query paper trades**
+**Step 3 — Check results**
 
-While running or after market close:
+Results are pushed to GitHub automatically at 15:35. View them at:
+```
+https://github.com/meetmallela/pair_leadership_bt/tree/master/paper_trading/results
+```
+
+Each trading day produces one CSV file (e.g. `2026-03-03.csv`) with the full trade record.
+
+To query locally while the script is running:
 
 ```cmd
 C:\ProgramData\anaconda3\python.exe -c "
@@ -732,7 +740,41 @@ CREATE TABLE paper_trades (
 )
 ```
 
-### 18.8 What to Track Over 3–6 Months
+### 18.8 Auto Git Sync (EOD)
+
+Script: `paper_trading/sync.py`
+
+At **15:35 IST**, after the daily Telegram summary, the system automatically:
+
+1. Exports today's paper trades to `paper_trading/results/YYYY-MM-DD.csv`
+2. Runs `git add` → `git commit` → `git push origin master`
+
+The git commit message summarises the day's result, e.g.:
+```
+Paper trade result 2026-03-03: 1 trade | +15.0 pts | Rs +690
+```
+
+**No-trade days** (VIX gate fails, or gate passes but no signal fires) produce no CSV and no commit.
+
+**File layout in the repo after several weeks:**
+```
+paper_trading/results/
+├── 2026-03-03.csv
+├── 2026-03-04.csv
+├── 2026-03-05.csv
+└── ...
+```
+
+**What stays local (not pushed):**
+- `paper_trades.db` — full SQLite database (excluded via `.gitignore`)
+- `paper_trading.log` — verbose log file (excluded via `.gitignore`)
+
+**GitHub URL for results:**
+```
+https://github.com/meetmallela/pair_leadership_bt/tree/master/paper_trading/results
+```
+
+### 18.9 What to Track Over 3–6 Months
 
 | Metric | Target (from backtest) | Purpose |
 |--------|------------------------|---------|
