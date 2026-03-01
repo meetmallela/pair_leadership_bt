@@ -66,6 +66,33 @@ def check_vix_gate(kite):
     return gate_ok, yesterday, vix_level, vix_direction
 
 
+def check_intraday_vix_gate(live_vix, yesterday_close):
+    """
+    Intraday VIX gate — checked at the moment a signal fires.
+
+    Two conditions must hold:
+      1. Live VIX is still within the MEDIUM band [MIN_VIX_VALUE, MAX_VIX_VALUE)
+         — catches intraday collapses (< 13) or panic spikes (> 20)
+      2. Live VIX is above yesterday's close
+         — confirms the RISING direction is still intact during the session
+
+    Returns: (gate_ok: bool, reason: str)
+    """
+    if live_vix is None:
+        return False, "Live VIX not yet received from WebSocket"
+
+    if live_vix < MIN_VIX_VALUE:
+        return False, f"Live VIX {live_vix:.2f} collapsed below floor {MIN_VIX_VALUE}"
+
+    if live_vix >= MAX_VIX_VALUE:
+        return False, f"Live VIX {live_vix:.2f} spiked above ceiling {MAX_VIX_VALUE}"
+
+    if yesterday_close and live_vix <= yesterday_close:
+        return False, f"Live VIX {live_vix:.2f} not rising vs yesterday {yesterday_close:.2f}"
+
+    return True, f"Live VIX {live_vix:.2f} MEDIUM RISING vs yesterday {yesterday_close:.2f}"
+
+
 # ================= INDICATORS =================
 
 def compute_running_vwap(candles):

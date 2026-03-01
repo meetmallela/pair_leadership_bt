@@ -14,17 +14,19 @@ from datetime import datetime
 import pytz
 from kiteconnect import KiteTicker
 
-from config import NIFTY_TOKEN, RELIANCE_TOKEN, HDFCBANK_TOKEN
+from config import NIFTY_TOKEN, RELIANCE_TOKEN, HDFCBANK_TOKEN, INDIAVIX_TOKEN
 
 IST = pytz.timezone("Asia/Kolkata")
-TOKENS = [NIFTY_TOKEN, RELIANCE_TOKEN, HDFCBANK_TOKEN]
+TOKENS     = [NIFTY_TOKEN, RELIANCE_TOKEN, HDFCBANK_TOKEN]
+ALL_TOKENS = TOKENS + [INDIAVIX_TOKEN]
 
 
 class LiveFeed:
 
     def __init__(self, api_key, access_token):
         self.candle_history = {t: [] for t in TOKENS}
-        self.current        = {}   # token → in-progress candle dict
+        self.current        = {}      # token → in-progress candle dict
+        self.latest_vix     = None   # last known live VIX price
 
         self.kws = KiteTicker(api_key, access_token)
         self.kws.on_connect      = self._on_connect
@@ -51,18 +53,29 @@ class LiveFeed:
         """Return a copy of completed candle history for one instrument."""
         return list(self.candle_history[token])
 
+    def get_latest_vix(self):
+        """Return the most recent live VIX price, or None if not yet received."""
+        return self.latest_vix
+
     # ---------- WebSocket callbacks ----------
 
     def _on_connect(self, ws, _):
-        ws.subscribe(TOKENS)
+        ws.subscribe(ALL_TOKENS)
         ws.set_mode(ws.MODE_QUOTE, TOKENS)
-        logging.info(f"[FEED] Subscribed to {TOKENS} (MODE_QUOTE)")
+        ws.set_mode(ws.MODE_LTP, [INDIAVIX_TOKEN])   # price only for VIX
+        logging.info(f"[FEED] Subscribed to equity {TOKENS} (QUOTE) + VIX {INDIAVIX_TOKEN} (LTP)")
 
     def _on_ticks(self, ws, ticks):
         now_min = datetime.now(IST).replace(second=0, microsecond=0)
 
         for tick in ticks:
             token  = tick.get("instrument_token")
+
+            # VIX — just store latest price, no candle aggregation needed
+            if token == INDIAVIX_TOKEN:
+                self.latest_vix = tick.get("last_price")
+                continue
+
             if token not in self.candle_history:
                 continue
 

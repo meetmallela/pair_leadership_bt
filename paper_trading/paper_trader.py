@@ -26,7 +26,7 @@ from config import (
     NIFTY_TOKEN, RELIANCE_TOKEN, HDFCBANK_TOKEN,
 )
 from db import close_trade, get_all_closed_trades, get_today_trades, insert_open_trade
-from signal_engine import get_bias
+from signal_engine import get_bias, check_intraday_vix_gate
 
 IST = pytz.timezone("Asia/Kolkata")
 
@@ -94,10 +94,10 @@ class PaperTrader:
 
     # ---------- Public interface ----------
 
-    def on_minute_close(self, time_str, nifty_candles, rel_candles, hdfc_candles):
+    def on_minute_close(self, time_str, nifty_candles, rel_candles, hdfc_candles, live_vix):
         """
-        Called by main.py every minute with the full candle histories.
-        Applies today-filter, time gate, then entry/exit logic.
+        Called by main.py every minute with the full candle histories and live VIX.
+        Applies today-filter, time gate, intraday VIX gate, then entry/exit logic.
         """
         if not self.gate_ok:
             return
@@ -111,11 +111,11 @@ class PaperTrader:
         if not nifty_today or not rel_today or not hdfc_today:
             return
 
-        bucket = _time_bucket(time_str)
+        bucket    = _time_bucket(time_str)
         rel_bias  = get_bias(rel_today)
         hdfc_bias = get_bias(hdfc_today)
 
-        # --- EXIT (checked every minute regardless of bucket) ---
+        # --- EXIT (checked every minute regardless of bucket or VIX) ---
         if self.trade is not None:
             nifty_close = nifty_today[-1]["close"]
             self._check_exit(time_str, nifty_close, rel_bias, hdfc_bias, today_str)
@@ -133,8 +133,13 @@ class PaperTrader:
                 else None
             )
             if pair_bias:
+                # Intraday VIX gate — final check before committing to a trade
+                vix_ok, vix_reason = check_intraday_vix_gate(live_vix, self.vix_close)
+                if not vix_ok:
+                    logging.info(f"[VIX-INTRADAY] Signal blocked at {time_str}: {vix_reason}")
+                    return
                 nifty_close = nifty_today[-1]["close"]
-                self._open_trade(time_str, today_str, nifty_close, pair_bias, bucket)
+                self._open_trade(time_str, today_str, nifty_close, pair_bias, bucket, live_vix)
 
     def send_daily_summary(self):
         """Send end-of-day Telegram summary."""
@@ -158,14 +163,15 @@ class PaperTrader:
 
     # ---------- Internal helpers ----------
 
-    def _open_trade(self, time_str, today_str, nifty_price, direction, bucket):
+    def _open_trade(self, time_str, today_str, nifty_price, direction, bucket, live_vix):
         option_type = "CE" if direction == "BULLISH" else "PE"
         sl          = (
             nifty_price - STOP_LOSS_POINTS if direction == "BULLISH"
             else nifty_price + STOP_LOSS_POINTS
         )
+        # Use live intraday VIX for BS proxy — more accurate than yesterday's close
         atm_strike, option_px = _option_bs(
-            nifty_price, date.today(), self.vix_close, option_type
+            nifty_price, date.today(), live_vix, option_type
         )
 
         row = {
@@ -178,20 +184,21 @@ class PaperTrader:
             "option_entry_px": round(option_px, 2),
             "stop_loss":       round(sl, 2),
             "time_bucket":     bucket,
-            "vix_close":       self.vix_close,
+            "vix_close":       self.vix_close,     # yesterday's close (overnight gate)
             "vix_level":       self.vix_level,
             "vix_direction":   self.vix_direction,
+            "vix_intraday":    round(live_vix, 2), # live VIX at signal time
         }
         trade_id = insert_open_trade(self.conn, row)
 
-        self.trade = {**row, "trade_id": trade_id}
+        self.trade = {**row, "trade_id": trade_id, "live_vix_at_entry": live_vix}
         self.traded_today = True
 
         msg = (
             f"PAPER TRADE: {direction}\n"
             f"Nifty: {nifty_price:,.1f} | {option_type} {atm_strike:,.0f}\n"
             f"SL: {sl:,.1f} | Option entry: Rs {option_px:,.0f} (BS proxy)\n"
-            f"Time bucket: {bucket} | VIX: {self.vix_close:.1f}"
+            f"Time bucket: {bucket} | VIX yesterday: {self.vix_close:.1f} | VIX live: {live_vix:.1f}"
         )
         logging.info(f"[ENTRY] {msg}")
         self._notify(msg)
@@ -224,9 +231,11 @@ class PaperTrader:
         option_type = t["option_type"]
         expiry      = get_next_expiry(date.today())
         T_exit      = (expiry - date.today()).days / 365
+        # Use live VIX at exit for BS proxy if available, else fall back to entry VIX
+        exit_sigma  = (t.get("live_vix_at_entry") or self.vix_close) / 100
         option_exit_px = bs_price(
             nifty_exit, t["atm_strike"], T_exit,
-            RISK_FREE_RATE, self.vix_close / 100, option_type
+            RISK_FREE_RATE, exit_sigma, option_type
         )
         pnl_options_rs = (option_exit_px - t["option_entry_px"]) * LOT_SIZE - 60  # Rs 60 cost
 

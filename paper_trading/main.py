@@ -122,7 +122,8 @@ async def run(kite, config, gate_ok, vix_close, vix_level, vix_direction):
                 hdfc_h  = feed.get_candles(HDFCBANK_TOKEN)
 
                 if nifty_h and rel_h and hdfc_h:
-                    trader.on_minute_close(cur_min, nifty_h, rel_h, hdfc_h)
+                    live_vix = feed.get_latest_vix()
+                    trader.on_minute_close(cur_min, nifty_h, rel_h, hdfc_h, live_vix)
                 else:
                     logging.debug("[MAIN] Waiting for candle data from all 3 instruments...")
 

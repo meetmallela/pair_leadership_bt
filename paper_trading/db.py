@@ -21,6 +21,7 @@ CREATE TABLE IF NOT EXISTS paper_trades (
     vix_close       REAL,
     vix_level       TEXT,
     vix_direction   TEXT,
+    vix_intraday    REAL,
     exit_time       TEXT,
     nifty_exit      REAL,
     option_exit_px  REAL,
@@ -49,10 +50,12 @@ def insert_open_trade(conn, row):
     sql = """
     INSERT INTO paper_trades
         (date, entry_time, direction, nifty_entry, option_type, atm_strike,
-         option_entry_px, stop_loss, time_bucket, vix_close, vix_level, vix_direction, status)
+         option_entry_px, stop_loss, time_bucket, vix_close, vix_level, vix_direction,
+         vix_intraday, status)
     VALUES
         (:date, :entry_time, :direction, :nifty_entry, :option_type, :atm_strike,
-         :option_entry_px, :stop_loss, :time_bucket, :vix_close, :vix_level, :vix_direction, 'OPEN')
+         :option_entry_px, :stop_loss, :time_bucket, :vix_close, :vix_level, :vix_direction,
+         :vix_intraday, 'OPEN')
     """
     cur = conn.execute(sql, row)
     conn.commit()
