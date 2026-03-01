@@ -35,6 +35,7 @@ from live_feed import LiveFeed
 from notifier import send as telegram_send
 from paper_trader import PaperTrader
 from signal_engine import check_vix_gate
+from sync import eod_sync
 
 IST = pytz.timezone("Asia/Kolkata")
 
@@ -128,6 +129,8 @@ async def run(kite, config, gate_ok, vix_close, vix_level, vix_direction):
             # End of day
             if cur_min == "15:35":
                 trader.send_daily_summary()
+                logging.info("[MAIN] Exporting results and pushing to GitHub...")
+                eod_sync(conn)
                 logging.info("[MAIN] Market closed. Shutting down.")
                 feed.stop()
                 break

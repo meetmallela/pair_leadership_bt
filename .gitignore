@@ -5,11 +5,16 @@ kite_config_*.json
 *.json
 sl_config.json
 sl_exits.json
+
+# Paper trading runtime files (DB and log stay local)
+paper_trading/*.db
+paper_trading/*.log
+
+# Paper trading results CSVs ARE tracked (see paper_trading/results/)
+
 __pycache__/
 *.pyc
 *.pyo
-*.db
-*.log
 
 # Large raw 1-min data files (regenerate via ingestion/ scripts)
 data/raw/nifty_1m.csv
