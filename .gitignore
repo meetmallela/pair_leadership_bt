@@ -1,4 +1,10 @@
+# Kite credentials and config (never commit these)
 kite_config.json
+kite_config_*.json
+*_config.json
+*.json
+sl_config.json
+sl_exits.json
 __pycache__/
 *.pyc
 *.pyo
